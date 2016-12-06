@@ -1,0 +1,10 @@
+[package]
+name = "rpl"
+version = "0.1.0"
+authors = ["Sam Anderson <sam@csand.net>"]
+
+[dependencies]
+
+[[bin]]
+name = "rpl"
+path = "src/main.rs"
