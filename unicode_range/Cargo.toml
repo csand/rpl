@@ -1,0 +1,6 @@
+[package]
+name = "unicode_range"
+version = "0.1.0"
+authors = ["csand <sam@csand.net>"]
+
+[dependencies]

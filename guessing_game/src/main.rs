@@ -18,6 +18,7 @@ fn main() {
         stdin().read_line(&mut guess)
             .expect("Failed to read line");
 
+        // Turbo-fish!
         let guess = match guess.trim().parse::<u32>() {
             Ok(n) => n,
             Err(_) => {
